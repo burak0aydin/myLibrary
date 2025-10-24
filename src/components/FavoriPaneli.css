@@ -1,0 +1,68 @@
+.favori-panel {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.favori-baslik {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a2332;
+  margin-bottom: 20px;
+}
+
+.favori-bos {
+  color: #6b7280;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.favori-liste {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.favori-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.favori-item::before {
+  content: "•";
+  color: #374151;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.favori-bilgi {
+  flex: 1;
+  min-width: 0;
+}
+
+.favori-baslik-text {
+  font-size: 15px;
+  color: #1a2332;
+  font-weight: 500;
+}
+
+.kaldir-btn {
+  padding: 6px 14px;
+  background-color: #f3f4f6;
+  color: #374151;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.kaldir-btn:hover {
+  background-color: #e5e7eb;
+}

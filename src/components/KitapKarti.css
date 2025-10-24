@@ -1,0 +1,68 @@
+.kitap-kart {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.kitap-kart:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+.kitap-bilgi {
+  flex: 1;
+}
+
+.kitap-baslik {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a2332;
+  margin-bottom: 6px;
+}
+
+.kitap-detay {
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 400;
+}
+
+.favori-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.favori-btn:hover {
+  background-color: #e5e7eb;
+}
+
+.favori-btn.aktif {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.favori-btn.aktif:hover {
+  background-color: #fde68a;
+}
+
+.yildiz {
+  font-size: 16px;
+}
+
+.favori-btn.aktif .yildiz {
+  color: #f59e0b;
+}

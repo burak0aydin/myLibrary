@@ -1,0 +1,20 @@
+.arama-input {
+  flex: 1;
+  padding: 14px 20px;
+  font-size: 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.2s;
+  background-color: white;
+  color: #1a2332;
+}
+
+.arama-input::placeholder {
+  color: #9ca3af;
+}
+
+.arama-input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}

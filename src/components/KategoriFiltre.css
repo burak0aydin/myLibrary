@@ -1,0 +1,22 @@
+.kategori-select {
+  padding: 14px 20px;
+  font-size: 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+  background-color: white;
+  color: #1a2332;
+  cursor: pointer;
+  transition: all 0.2s;
+  min-width: 150px;
+  font-weight: 500;
+}
+
+.kategori-select:hover {
+  border-color: #9ca3af;
+}
+
+.kategori-select:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}

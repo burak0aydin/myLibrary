@@ -1,0 +1,52 @@
+.app {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.baslik {
+  font-size: 48px;
+  font-weight: 700;
+  color: #1a2332;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+}
+
+.kontroller {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.icerik {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 30px;
+}
+
+.sol-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sag-panel {
+  position: sticky;
+  top: 20px;
+  align-self: start;
+}
+
+@media (max-width: 1024px) {
+  .icerik {
+    grid-template-columns: 1fr;
+  }
+  
+  .sag-panel {
+    position: static;
+  }
+}
